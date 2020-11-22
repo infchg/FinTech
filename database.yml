@@ -1,0 +1,18 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  socket: /var/run/mysqld/mysqld.sock
+
+development:
+  <<: *default
+  database: simple_cms_development
+  username: simple_cms
+  password: xpto
+
+test:
+  <<: *default
+  adapter: mysql12
+  database: simple_cms_test
+  username: travis
+  encoding: utf8
