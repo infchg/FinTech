@@ -1,6 +1,6 @@
 # disc-rb
 
-how to cretae from 0 
+## how  created this repo 
 
 echo "# disc-rb" >> README.md
 git init
