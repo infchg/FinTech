@@ -1,9 +1,29 @@
-# disc-rb
+# FinTech
+
+demos on FinTech integrations, leveraging API, yaml, ... see also [https://github.com/infchg/docs-md] reporting
+
+## SAP
+
+- need cds first,
+- then run the JavaScript implementation: in a terminal run 
+
+    cds watch
+    
+    
+ - Then call the service at: http://localhost:4004/say/hello(to='world')
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/infchg/disc-rb)
+### commands to reinstall the daemon:
 
-[![Build Status](https://travis-ci.org/infchg/disc-rb.svg?branch=master)](https://travis-ci.org/infchg/disc-rb)
+    System V init distributions: /opt/sap/scc/daemon.sh reinstall
+    systemd distributions: /opt/sap/scc/daemon.sh reinstallSystemd
+
+## PRevious Demos disc-rb
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/infchg/FinTech)
+
+[![Build Status](https://travis-ci.org/infchg/FinTech.svg?branch=master)](https://travis-ci.org/infchg/FinTech)
 
 
 ## how  created this repo 
