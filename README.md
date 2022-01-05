@@ -1,6 +1,17 @@
 # FinTech
 
-demos on FinTech integrations, leveraging API, yaml, ... see also [https://github.com/infchg/docs-md] reporting
+demos on FinTech integrations, leveraging API, yaml, ... see also [https://github.com/infchg/docs-md] reporting 
+
+## RPA
+
+see jupyter rpa notes as needed to collect information from non-API apps
+
+## HACT
+
+Plans to include here works on Harmonized approach to cash transfers (HACT)
+
+
+ UNFPA UNDP UNICEF use HACT to transfer cash to partners, via the Resident Coordinator, the framework can be tailored to different environments.
 
 ## SAP
 
